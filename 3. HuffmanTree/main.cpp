@@ -11,6 +11,7 @@ public:
 	string myChar;
 	ListNode* left = NULL;
 	ListNode* right = NULL;
+	string code = "";
 
 	ListNode() {
 		//The default constructor for not initializing any field
@@ -24,6 +25,30 @@ public:
 		this->next = NULL;
 	}
 
+	string toString() {
+		string result = "";
+		ostringstream s;
+		s << pro;
+		string newPro(s.str());
+		
+		string leftS = "NULL";
+		string rightS = "NULL";
+		string nextS = "NULL";
+		if (left != NULL) {
+			leftS = left->myChar;
+		}
+		if (right != NULL) {
+			rightS = right->myChar;
+		}
+		if (next != NULL) {
+			nextS = next->myChar;
+		}
+		result = result + myChar + " " + newPro + " "+nextS+" " + leftS + " " + rightS + " " ;
+		return result;
+	
+	}
+
+
 };
 
 
@@ -34,10 +59,12 @@ class LinkedList {
 		ListNode* findSpot(ListNode *&newNode) {
 			ListNode* current = head;
 			while (current->next != NULL) {
-				if ((newNode->pro) < (current->next->pro)) {
-					break;
+				if ((current->next->pro)<(newNode->pro) ) {
+					current = current->next;
+					continue;
 				}
-				current = current->next;
+				break;
+				
 			}
 			return current;
 
@@ -84,18 +111,18 @@ class LinkedList {
 			string newPro(s.str());
 			result = result + "(" + "'" + newChar + "'," + newPro + ",'" + "'NULL'" + ")->";
 			result = result + "NULL";
-			cout << result << endl;
+			//cout << result << endl;
 			//write to file
 			return result;
 
 		}
 
 		~LinkedList() { //destructor for memory release
-			while (head != NULL) {
-				ListNode* old = head;
-				head = head->next;
-				delete old;
-			}
+			//while (head != NULL) {
+				//ListNode* old = head;
+				//head = head->next;
+				//delete old;
+			//}
 
 		}
 
@@ -111,13 +138,14 @@ class HuffmanBinTree {
 	ofstream output2;
 	ofstream output3;
 
-	void postOrderDelete(ListNode* root) {
+	void postOrderDelete(ListNode* root) 
+	{		//used by destructor
 
 		if (root == NULL) {
 			return;
 		}
 		postOrderDelete(root->left);
-		postOrderDelete(root->right);
+		postOrderDelete(root->right);	
 		delete root;
 	
 	}
@@ -127,7 +155,7 @@ class HuffmanBinTree {
 		if (root == NULL) {
 			return;
 		}
-		cout << root->myChar << "  " << root->pro << endl;
+		output2 << root->toString() << endl;
 		preOrderHelper(root->left);
 		preOrderHelper(root->right);
 
@@ -139,7 +167,7 @@ class HuffmanBinTree {
 			return;
 		}
 		inOrderHelper(root->left);
-		cout << root->myChar << "  " << root->pro << endl;
+		output2 << root->toString() << endl;
 		inOrderHelper(root->right);
 
 
@@ -152,16 +180,31 @@ class HuffmanBinTree {
 		}
 		postOrderHelper(root->left);
 		postOrderHelper(root->right);
-		cout << root->myChar << "  " << root->pro << endl;
+		output2 << root->toString() << endl;
 
 
+	}
+
+	void constructCodeHelper(ListNode *root,string code) {
+		if (this->isLeaf(root)) {
+			root->code = code;
+			output1 << root->myChar << " " << root->code << endl;
+			//cout << root->myChar << " " << root->code << endl;
+			return;
+		}
+		root->code = code;
+		constructCodeHelper(root->left, root->code+"0");
+		constructCodeHelper(root->right, root->code+"1");
 	}
 	
 
 	public:
-		HuffmanBinTree() { // there should be 4 string to be the parameter for indicating the fileName 
+		HuffmanBinTree(string s1,string s2,string s3,string s4) { // there should be 4 string to be the parameter for indicating the fileName 
 			list = new LinkedList();
-			this->input.open("input.txt");
+			this->input.open(s1);
+			this->output1.open(s2);
+			this->output2.open(s3);
+			this->output3.open(s4);
 		}
 
 		void constructHuffmanList()
@@ -177,15 +220,16 @@ class HuffmanBinTree {
 				if (input.eof()) break;
 				ListNode* node = new ListNode(chr, pro);
 				list->listInsert(node);//insert, then prints
-				list->printList();
+				output3<<list->printList()<<endl;
 			}
+			output3 << endl;
 
 		}
 
 		void constructHuffmanBinTree() 
 		{
 			this->constructHuffmanList(); //construct the linkedlist first
-			cout << endl << "Construct Tree" << endl<<endl;
+			//cout << endl << "Construct Tree" << endl<<endl;
 			while (list->head->next != NULL&&list->head->next->next!=NULL) {
 				int sum = list->head->next->pro + list->head->next->next->pro;
 				string concatenation= list->head->next->myChar + list->head->next->next->myChar;
@@ -194,26 +238,33 @@ class HuffmanBinTree {
 				node->right = list->head->next->next;
 				list->listInsert(node);
 				list->head->next = list->head->next->next->next;
-				list->printList();
+				output3<<list->printList()<<endl;
 				
 			
 			}
+			output3 << endl;
 			this->treeRoot = list->head->next;
 		
 		}
 
 
 		void preOrder() {
+			output2 << "preOrder Traversal" << endl;
 			preOrderHelper(treeRoot);
+			output2 << endl;
 		}
 		
 
 		void inOrder() {
+			output2 << "inOrder Traversal" << endl;
 			inOrderHelper(treeRoot);
+			output2 << endl;
 		}
 
 		void postOrder() {
+			output2 << "postOrder Traversal" << endl;
 			postOrderHelper(treeRoot);
+			output2 << endl;
 		}
 
 		bool isLeaf(ListNode* root) {
@@ -225,21 +276,24 @@ class HuffmanBinTree {
 			}
 			return false;
 		}
-
+		void constructCharCode() {
+			constructCodeHelper(treeRoot,"");
+		}
 		
 		~HuffmanBinTree() { //Destructor
 			input.close();
 			postOrderDelete(treeRoot);
-			//output1.close();
-			//output2.close();
-			//output3.close();
+			output1.close();
+			output2.close();
+			output3.close();
+			delete list;
 		}
 
 };
 
 
 
-int main()
+int main(int argc, char** argv)
 {
 	//cout<<argv[1]<<"dd"<<endl;
 	//cout<<argv[2]<<"dd"<<endl;
@@ -252,13 +306,15 @@ int main()
 
 	//string result = list.printList();
 	//input.close();
-	HuffmanBinTree tree;
+	HuffmanBinTree tree(argv[1],argv[2],argv[3],argv[4]);
 	tree.constructHuffmanBinTree();
 	tree.preOrder();
-	cout << endl;
-	tree.postOrder();
-	cout << endl;
+	//cout << endl;
 	tree.inOrder();
+	//cout << endl;
+	tree.postOrder();
+	//cout << endl;
+	tree.constructCharCode();
 	
 	//tree.constructLinkedList();
 	
