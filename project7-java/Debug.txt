@@ -1,0 +1,383 @@
+  256
+, 23
+. 12
+1 2
+3 1
+6 1
+8 1
+9 1
+A 4
+B 2
+C 3
+F 1
+G 3
+I 2
+L 2
+N 3
+P 2
+S 2
+T 4
+U 2
+W 3
+a 136
+b 25
+c 120
+d 55
+e 183
+f 31
+g 30
+h 62
+i 79
+j 2
+k 7
+l 46
+m 34
+n 94
+o 84
+p 14
+q 2
+r 77
+s 47
+t 113
+u 20
+v 19
+w 25
+x 2
+y 18
+z 2
+Listhead->(dummy,0, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,1)->(1,2,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,3)->(3,1,1)->(1,2,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,6)->(6,1,3)->(3,1,1)->(1,2,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,8)->(8,1,6)->(6,1,3)->(3,1,1)->(1,2,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,1)->(1,2,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,1)->(1,2,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,B)->(B,2,1)->(1,2,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,B)->(B,2,1)->(1,2,C)->(C,3,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,B)->(B,2,1)->(1,2,C)->(C,3,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,B)->(B,2,1)->(1,2,G)->(G,3,C)->(C,3,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,I)->(I,2,B)->(B,2,1)->(1,2,G)->(G,3,C)->(C,3,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,G)->(G,3,C)->(C,3,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,N)->(N,3,G)->(G,3,C)->(C,3,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,N)->(N,3,G)->(G,3,C)->(C,3,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,N)->(N,3,G)->(G,3,C)->(C,3,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,a)->(a,136, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,a)->(a,136, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,c)->(c,120,a)->(a,136, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,d)->(d,55,c)->(c,120,a)->(a,136, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,d)->(d,55,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,f)->(f,31,d)->(d,55,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,d)->(d,55,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,d)->(d,55,h)->(h,62,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,d)->(d,55,h)->(h,62,i)->(i,79,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,d)->(d,55,h)->(h,62,i)->(i,79,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,d)->(d,55,h)->(h,62,i)->(i,79,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,l)->(l,46,d)->(d,55,h)->(h,62,i)->(i,79,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,d)->(d,55,h)->(h,62,i)->(i,79,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,d)->(d,55,h)->(h,62,i)->(i,79,n)->(n,94,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,d)->(d,55,h)->(h,62,i)->(i,79,o)->(o,84,n)->(n,94,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,d)->(d,55,h)->(h,62,i)->(i,79,o)->(o,84,n)->(n,94,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,d)->(d,55,h)->(h,62,i)->(i,79,o)->(o,84,n)->(n,94,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,s)->(s,47,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,s)->(s,47,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,t)->(t,113,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,u)->(u,20,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,s)->(s,47,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,t)->(t,113,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,v)->(v,19,u)->(u,20,,)->(,,23,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,s)->(s,47,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,t)->(t,113,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,v)->(v,19,u)->(u,20,,)->(,,23,w)->(w,25,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,s)->(s,47,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,t)->(t,113,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,x)->(x,2,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,v)->(v,19,u)->(u,20,,)->(,,23,w)->(w,25,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,s)->(s,47,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,t)->(t,113,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,x)->(x,2,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,y)->(y,18,v)->(v,19,u)->(u,20,,)->(,,23,w)->(w,25,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,s)->(s,47,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,t)->(t,113,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,F)->(F,1,9)->(9,1,8)->(8,1,6)->(6,1,3)->(3,1,z)->(z,2,x)->(x,2,q)->(q,2,j)->(j,2,U)->(U,2,S)->(S,2,P)->(P,2,L)->(L,2,I)->(I,2,B)->(B,2,1)->(1,2,W)->(W,3,N)->(N,3,G)->(G,3,C)->(C,3,T)->(T,4,A)->(A,4,k)->(k,7,.)->(.,12,p)->(p,14,y)->(y,18,v)->(v,19,u)->(u,20,,)->(,,23,w)->(w,25,b)->(b,25,g)->(g,30,f)->(f,31,m)->(m,34,l)->(l,46,s)->(s,47,d)->(d,55,h)->(h,62,r)->(r,77,i)->(i,79,o)->(o,84,n)->(n,94,t)->(t,113,c)->(c,120,a)->(a,136,e)->(e,183, )->( ,256,NULL)->NULL
+Listhead->(dummy,0,ryvuANG.ioelsn,wb386WCB1ptdgkF9zTjUxqLISPc hfma)->(ryvuANG.ioelsn,wb386WCB1ptdgkF9zTjUxqLISPc hfma,1657,NULL)->NULL
+
+preorder Traverse 
+
+ryvuANG.ioelsn,wb386WCB1ptdgkF9zTjUxqLISPc hfma 1657  Null  ryvuANG.ioelsn  ,wb386WCB1ptdgkF9zTjUxqLISPc hfma 
+ryvuANG.ioelsn 689  ,wb386WCB1ptdgkF9zTjUxqLISPc hfma  ryvuANG.io  elsn 
+ryvuANG.io 319  elsn  ryvuANG.  io 
+ryvuANG. 156  io  r  yvuANG. 
+r 77  yvuANG.  Null  Null 
+yvuANG. 79  i  yv  uANG. 
+yv 37  uANG.  y  v 
+y 18  v  Null  Null 
+v 19  u  Null  Null 
+uANG. 42  l  u  ANG. 
+u 20  ANG.  Null  Null 
+ANG. 22  ,  ANG  . 
+ANG 10  .  A  NG 
+A 4  NG  Null  Null 
+NG 6  386W  N  G 
+N 3  G  Null  Null 
+G 3  C  Null  Null 
+. 12  386WCB1  Null  Null 
+io 163  e  i  o 
+i 79  o  Null  Null 
+o 84  ls  Null  Null 
+elsn 370  ,wb386WCB1ptdgkF9zTjUxqLISPc  e  lsn 
+e 183  lsn  Null  Null 
+lsn 187  ,wb386WCB1pt  ls  n 
+ls 93  n  l  s 
+l 46  s  Null  Null 
+s 47  ,w  Null  Null 
+n 94  ,wb386WCB1p  Null  Null 
+,wb386WCB1ptdgkF9zTjUxqLISPc hfma 968  ryvuANG.ioelsn,wb386WCB1ptdgkF9zTjUxqLISPc hfma  ,wb386WCB1ptdgkF9zTjUxqLISPc   hfma 
+,wb386WCB1ptdgkF9zTjUxqLISPc 449   hfma  ,wb386WCB1pt  dgkF9zTjUxqLISPc 
+,wb386WCB1pt 213  dgkF9zTjUxqLISPc  ,wb386WCB1p  t 
+,wb386WCB1p 100  t  ,w  b386WCB1p 
+,w 48  b386WCB1p  ,  w 
+, 23  w  Null  Null 
+w 25  b  Null  Null 
+b386WCB1p 52  d  b  386WCB1p 
+b 25  386WCB1p  Null  Null 
+386WCB1p 27  g  386WCB1  p 
+386WCB1 13  p  386W  CB1 
+386W 6  CB1  386  W 
+386 3  W  3  86 
+3 1  86  Null  Null 
+86 2  F9  8  6 
+8 1  6  Null  Null 
+6 1  3  Null  Null 
+W 3  N  Null  Null 
+CB1 7  k  C  B1 
+C 3  B1  Null  Null 
+B1 4  LI  B  1 
+B 2  1  Null  Null 
+1 2  386  Null  Null 
+p 14  kF9zT  Null  Null 
+t 113  dgkF9zTjUxqLISP  Null  Null 
+dgkF9zTjUxqLISPc 236     dgkF9zTjUxqLISP  c 
+dgkF9zTjUxqLISP 116  c  d  gkF9zTjUxqLISP 
+d 55  gkF9zTjUxqLISP  Null  Null 
+gkF9zTjUxqLISP 61  h  g  kF9zTjUxqLISP 
+g 30  kF9zTjUxqLISP  Null  Null 
+kF9zTjUxqLISP 31  f  kF9zT  jUxqLISP 
+kF9zT 15  jUxqLISP  k  F9zT 
+k 7  F9zT  Null  Null 
+F9zT 8  jUxq  F9z  T 
+F9z 4  T  F9  z 
+F9 2  z  F  9 
+F 1  9  Null  Null 
+9 1  8  Null  Null 
+z 2  x  Null  Null 
+T 4  A  Null  Null 
+jUxqLISP 16  y  jUxq  LISP 
+jUxq 8  LISP  jU  xq 
+jU 4  xq  j  U 
+j 2  U  Null  Null 
+U 2  S  Null  Null 
+xq 4  F9z  x  q 
+x 2  q  Null  Null 
+q 2  j  Null  Null 
+LISP 8  ANG  LI  SP 
+LI 4  SP  L  I 
+L 2  I  Null  Null 
+I 2  B  Null  Null 
+SP 4  jU  S  P 
+S 2  P  Null  Null 
+P 2  L  Null  Null 
+c 120  hfm  Null  Null 
+ hfma 519  ryvuANG.ioelsn     hfma 
+  256  hfma  Null  Null 
+hfma 263  ryvuANG.io  hfm  a 
+hfm 127  a  h  fm 
+h 62  fm  Null  Null 
+fm 65  r  f  m 
+f 31  m  Null  Null 
+m 34  yv  Null  Null 
+a 136  ryvuANG.  Null  Null 
+
+inorder Traverse 
+
+r 77  yvuANG.  Null  Null 
+ryvuANG. 156  io  r  yvuANG. 
+y 18  v  Null  Null 
+yv 37  uANG.  y  v 
+v 19  u  Null  Null 
+yvuANG. 79  i  yv  uANG. 
+u 20  ANG.  Null  Null 
+uANG. 42  l  u  ANG. 
+A 4  NG  Null  Null 
+ANG 10  .  A  NG 
+N 3  G  Null  Null 
+NG 6  386W  N  G 
+G 3  C  Null  Null 
+ANG. 22  ,  ANG  . 
+. 12  386WCB1  Null  Null 
+ryvuANG.io 319  elsn  ryvuANG.  io 
+i 79  o  Null  Null 
+io 163  e  i  o 
+o 84  ls  Null  Null 
+ryvuANG.ioelsn 689  ,wb386WCB1ptdgkF9zTjUxqLISPc hfma  ryvuANG.io  elsn 
+e 183  lsn  Null  Null 
+elsn 370  ,wb386WCB1ptdgkF9zTjUxqLISPc  e  lsn 
+l 46  s  Null  Null 
+ls 93  n  l  s 
+s 47  ,w  Null  Null 
+lsn 187  ,wb386WCB1pt  ls  n 
+n 94  ,wb386WCB1p  Null  Null 
+ryvuANG.ioelsn,wb386WCB1ptdgkF9zTjUxqLISPc hfma 1657  Null  ryvuANG.ioelsn  ,wb386WCB1ptdgkF9zTjUxqLISPc hfma 
+, 23  w  Null  Null 
+,w 48  b386WCB1p  ,  w 
+w 25  b  Null  Null 
+,wb386WCB1p 100  t  ,w  b386WCB1p 
+b 25  386WCB1p  Null  Null 
+b386WCB1p 52  d  b  386WCB1p 
+3 1  86  Null  Null 
+386 3  W  3  86 
+8 1  6  Null  Null 
+86 2  F9  8  6 
+6 1  3  Null  Null 
+386W 6  CB1  386  W 
+W 3  N  Null  Null 
+386WCB1 13  p  386W  CB1 
+C 3  B1  Null  Null 
+CB1 7  k  C  B1 
+B 2  1  Null  Null 
+B1 4  LI  B  1 
+1 2  386  Null  Null 
+386WCB1p 27  g  386WCB1  p 
+p 14  kF9zT  Null  Null 
+,wb386WCB1pt 213  dgkF9zTjUxqLISPc  ,wb386WCB1p  t 
+t 113  dgkF9zTjUxqLISP  Null  Null 
+,wb386WCB1ptdgkF9zTjUxqLISPc 449   hfma  ,wb386WCB1pt  dgkF9zTjUxqLISPc 
+d 55  gkF9zTjUxqLISP  Null  Null 
+dgkF9zTjUxqLISP 116  c  d  gkF9zTjUxqLISP 
+g 30  kF9zTjUxqLISP  Null  Null 
+gkF9zTjUxqLISP 61  h  g  kF9zTjUxqLISP 
+k 7  F9zT  Null  Null 
+kF9zT 15  jUxqLISP  k  F9zT 
+F 1  9  Null  Null 
+F9 2  z  F  9 
+9 1  8  Null  Null 
+F9z 4  T  F9  z 
+z 2  x  Null  Null 
+F9zT 8  jUxq  F9z  T 
+T 4  A  Null  Null 
+kF9zTjUxqLISP 31  f  kF9zT  jUxqLISP 
+j 2  U  Null  Null 
+jU 4  xq  j  U 
+U 2  S  Null  Null 
+jUxq 8  LISP  jU  xq 
+x 2  q  Null  Null 
+xq 4  F9z  x  q 
+q 2  j  Null  Null 
+jUxqLISP 16  y  jUxq  LISP 
+L 2  I  Null  Null 
+LI 4  SP  L  I 
+I 2  B  Null  Null 
+LISP 8  ANG  LI  SP 
+S 2  P  Null  Null 
+SP 4  jU  S  P 
+P 2  L  Null  Null 
+dgkF9zTjUxqLISPc 236     dgkF9zTjUxqLISP  c 
+c 120  hfm  Null  Null 
+,wb386WCB1ptdgkF9zTjUxqLISPc hfma 968  ryvuANG.ioelsn,wb386WCB1ptdgkF9zTjUxqLISPc hfma  ,wb386WCB1ptdgkF9zTjUxqLISPc   hfma 
+  256  hfma  Null  Null 
+ hfma 519  ryvuANG.ioelsn     hfma 
+h 62  fm  Null  Null 
+hfm 127  a  h  fm 
+f 31  m  Null  Null 
+fm 65  r  f  m 
+m 34  yv  Null  Null 
+hfma 263  ryvuANG.io  hfm  a 
+a 136  ryvuANG.  Null  Null 
+
+postorder Traverse 
+
+r 77  yvuANG.  Null  Null 
+y 18  v  Null  Null 
+v 19  u  Null  Null 
+yv 37  uANG.  y  v 
+u 20  ANG.  Null  Null 
+A 4  NG  Null  Null 
+N 3  G  Null  Null 
+G 3  C  Null  Null 
+NG 6  386W  N  G 
+ANG 10  .  A  NG 
+. 12  386WCB1  Null  Null 
+ANG. 22  ,  ANG  . 
+uANG. 42  l  u  ANG. 
+yvuANG. 79  i  yv  uANG. 
+ryvuANG. 156  io  r  yvuANG. 
+i 79  o  Null  Null 
+o 84  ls  Null  Null 
+io 163  e  i  o 
+ryvuANG.io 319  elsn  ryvuANG.  io 
+e 183  lsn  Null  Null 
+l 46  s  Null  Null 
+s 47  ,w  Null  Null 
+ls 93  n  l  s 
+n 94  ,wb386WCB1p  Null  Null 
+lsn 187  ,wb386WCB1pt  ls  n 
+elsn 370  ,wb386WCB1ptdgkF9zTjUxqLISPc  e  lsn 
+ryvuANG.ioelsn 689  ,wb386WCB1ptdgkF9zTjUxqLISPc hfma  ryvuANG.io  elsn 
+, 23  w  Null  Null 
+w 25  b  Null  Null 
+,w 48  b386WCB1p  ,  w 
+b 25  386WCB1p  Null  Null 
+3 1  86  Null  Null 
+8 1  6  Null  Null 
+6 1  3  Null  Null 
+86 2  F9  8  6 
+386 3  W  3  86 
+W 3  N  Null  Null 
+386W 6  CB1  386  W 
+C 3  B1  Null  Null 
+B 2  1  Null  Null 
+1 2  386  Null  Null 
+B1 4  LI  B  1 
+CB1 7  k  C  B1 
+386WCB1 13  p  386W  CB1 
+p 14  kF9zT  Null  Null 
+386WCB1p 27  g  386WCB1  p 
+b386WCB1p 52  d  b  386WCB1p 
+,wb386WCB1p 100  t  ,w  b386WCB1p 
+t 113  dgkF9zTjUxqLISP  Null  Null 
+,wb386WCB1pt 213  dgkF9zTjUxqLISPc  ,wb386WCB1p  t 
+d 55  gkF9zTjUxqLISP  Null  Null 
+g 30  kF9zTjUxqLISP  Null  Null 
+k 7  F9zT  Null  Null 
+F 1  9  Null  Null 
+9 1  8  Null  Null 
+F9 2  z  F  9 
+z 2  x  Null  Null 
+F9z 4  T  F9  z 
+T 4  A  Null  Null 
+F9zT 8  jUxq  F9z  T 
+kF9zT 15  jUxqLISP  k  F9zT 
+j 2  U  Null  Null 
+U 2  S  Null  Null 
+jU 4  xq  j  U 
+x 2  q  Null  Null 
+q 2  j  Null  Null 
+xq 4  F9z  x  q 
+jUxq 8  LISP  jU  xq 
+L 2  I  Null  Null 
+I 2  B  Null  Null 
+LI 4  SP  L  I 
+S 2  P  Null  Null 
+P 2  L  Null  Null 
+SP 4  jU  S  P 
+LISP 8  ANG  LI  SP 
+jUxqLISP 16  y  jUxq  LISP 
+kF9zTjUxqLISP 31  f  kF9zT  jUxqLISP 
+gkF9zTjUxqLISP 61  h  g  kF9zTjUxqLISP 
+dgkF9zTjUxqLISP 116  c  d  gkF9zTjUxqLISP 
+c 120  hfm  Null  Null 
+dgkF9zTjUxqLISPc 236     dgkF9zTjUxqLISP  c 
+,wb386WCB1ptdgkF9zTjUxqLISPc 449   hfma  ,wb386WCB1pt  dgkF9zTjUxqLISPc 
+  256  hfma  Null  Null 
+h 62  fm  Null  Null 
+f 31  m  Null  Null 
+m 34  yv  Null  Null 
+fm 65  r  f  m 
+hfm 127  a  h  fm 
+a 136  ryvuANG.  Null  Null 
+hfma 263  ryvuANG.io  hfm  a 
+ hfma 519  ryvuANG.ioelsn     hfma 
+,wb386WCB1ptdgkF9zTjUxqLISPc hfma 968  ryvuANG.ioelsn,wb386WCB1ptdgkF9zTjUxqLISPc hfma  ,wb386WCB1ptdgkF9zTjUxqLISPc   hfma 
+ryvuANG.ioelsn,wb386WCB1ptdgkF9zTjUxqLISPc hfma 1657  Null  ryvuANG.ioelsn  ,wb386WCB1ptdgkF9zTjUxqLISPc hfma 
