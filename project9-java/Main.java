@@ -197,7 +197,7 @@ public class Main {
 				 {
 					 if(jobArray[nodeId].parentCount<=0&&jobArray[nodeId].onOpen==0){
 						 //System.out.println(nodeId);
-						 System.out.println(nodeId);
+						 //System.out.println(nodeId);
 						 jobArray[nodeId].onOpen=1;
 						 Node node=new Node(nodeId,jobArray[nodeId].jobTime,dependentCountArray[nodeId]);
 						 list.insert(node);
@@ -234,6 +234,13 @@ public class Main {
 				 
 				 if(hasCycle){
 					 System.out.println("There is cycle in the graph");
+					 outputfile.write("\n\nHas Cycle");
+						try{
+							outputfile.close();
+							debugfile.close();	 
+						 }catch(Exception e){
+							System.out.println("Close Fail"); 
+						 }
 					 return;
 				 }
 				  //print schedual table
